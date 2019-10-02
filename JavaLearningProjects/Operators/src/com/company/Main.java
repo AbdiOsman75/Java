@@ -3,20 +3,20 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        int result = 1+2; // 1+2 = 3
+        int result = 1 + 2; // 1+2 = 3
         System.out.println("1 + 2 = " + result);
         int previousResult = result;
         System.out.println("previous result = " + previousResult);
-        result = result -1; // 3 - 1 =2
+        result = result - 1; // 3 - 1 =2
         System.out.println("3 - 1 = " + result);
 
-        result = result *10; // 2 * 10 = 20
-        System.out.println("2 * 10 = " +result);
+        result = result * 10; // 2 * 10 = 20
+        System.out.println("2 * 10 = " + result);
 
-        result = result/5; // 20 / 5 =4
+        result = result / 5; // 20 / 5 =4
         System.out.println("20 / 5 = " + result);
 
-        result = result%3; // the remainder of ( 4 % 3) = 1
+        result = result % 3; // the remainder of ( 4 % 3) = 1
         System.out.println("4 % 3 = " + result);
 
         //result = result + 1; is identical to result++;
@@ -30,7 +30,7 @@ public class Main {
         result += 2; // 1 + 2 = 3
         System.out.println("1 + 2 = " + result);
 
-        result*= 10; //  3 * 10 = 30
+        result *= 10; //  3 * 10 = 30
         System.out.println("3 * 10 = " + result);
 
         result /= 3; //  30 / 3 = 10
@@ -40,29 +40,29 @@ public class Main {
         System.out.println("10 - 2  = " + result);
 
         boolean isAlien = false;
-        if(isAlien == false) {
+        if (isAlien == false) {
             System.out.println("It is not an alien!");
             System.out.println("And I am scared of aliens.");
         }
 
         int topScore = 100;
-        if(topScore == 100 ){
+        if (topScore == 100) {
             System.out.println("You got the high score!");
         }
 
         //AND logical operator
         int secondTopScore = 60;
-        if (topScore > secondTopScore && topScore<100){
+        if (topScore > secondTopScore && topScore < 100) {
             System.out.println("Greater than second top score and less than 100");
         }
 
         //More clear
-        if ((topScore > secondTopScore) && (topScore<100)){
+        if ((topScore > secondTopScore) && (topScore < 100)) {
             System.out.println("Greater than second top score and less than 100");
         }
 
         //OR Logical operator
-        if((topScore>90) || (secondTopScore <=90)){
+        if ((topScore > 90) || (secondTopScore <= 90)) {
             System.out.println("Either or both of the conditions are true");
         }
 
@@ -74,10 +74,10 @@ public class Main {
 
         isCar = true;
         boolean wasCar = isCar ? true : false;
-        if(wasCar){
+        if (wasCar) {
             System.out.println("wasCar is true");
 
-        //Operator Challenge
+            //Operator Challenge
         /*
         Step 1 is to create a double variable with a value of 20.00.
         Step 2 create a second variable of type double with a value 80.00.
@@ -91,21 +91,21 @@ public class Main {
         is not true.
          */
 
-        double firstVal = 20.00d;
-        double secondVal = 80.00d;
+            double firstVal = 20.00d;
+            double secondVal = 80.00d;
 
-        double total = (firstVal + secondVal)*100.00d;
+            double total = (firstVal + secondVal) * 100.00d;
 
-        double remainder = total%40.00d;
-        System.out.println("The remainder is " + remainder);
+            double remainder = total % 40.00d;
+            System.out.println("The remainder is " + remainder);
 
-        boolean isZero = (remainder == 0) ? true : false;
+            boolean isZero = (remainder == 0) ? true : false;
 
-        System.out.println("isZero "+isZero);
+            System.out.println("isZero " + isZero);
 
-        if (!isZero){
-            System.out.println("Got some remainder");
-        }
+            if (!isZero) {
+                System.out.println("Got some remainder");
+            }
         }
     }
 }

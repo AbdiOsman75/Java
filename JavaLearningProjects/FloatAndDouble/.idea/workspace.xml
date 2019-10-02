@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc18b7f3-d1e5-4e94-93a6-45cf42d5a209" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HelloWorld/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortIntLong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ByteShortIntLong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortIntLong/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ByteShortIntLong/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/src/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/src/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operators/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Operators/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +21,11 @@
     <session id="-1051854046">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="544">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -208,8 +214,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="544">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>
