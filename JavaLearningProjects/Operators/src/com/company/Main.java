@@ -76,6 +76,36 @@ public class Main {
         boolean wasCar = isCar ? true : false;
         if(wasCar){
             System.out.println("wasCar is true");
+
+        //Operator Challenge
+        /*
+        Step 1 is to create a double variable with a value of 20.00.
+        Step 2 create a second variable of type double with a value 80.00.
+        Step 3 is to add both numbers together then multiply by 100.00.
+        Step 4 use the remainder operator to figure out what the remainder from the result of the operation in step 3
+        and 40.00 is.
+        Step 5 create a Boolean variable that assigns the value true if the remainder in step 4 is 0.00 or false
+        if it's not zero.
+        Step 6 output the Boolean variable just to see what the result is.
+        Step 7 write an if-then statement that displays a message 'got some remainder' if the Boolean in step five
+        is not true.
+         */
+
+        double firstVal = 20.00d;
+        double secondVal = 80.00d;
+
+        double total = (firstVal + secondVal)*100.00d;
+
+        double remainder = total%40.00d;
+        System.out.println("The remainder is " + remainder);
+
+        boolean isZero = (remainder == 0) ? true : false;
+
+        System.out.println("isZero "+isZero);
+
+        if (!isZero){
+            System.out.println("Got some remainder");
+        }
         }
     }
 }
