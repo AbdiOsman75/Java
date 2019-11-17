@@ -7,12 +7,16 @@ public class BankAccount {
     private String email;
     private String phoneNumber;
 
-    public BankAccount(String accountNumber, double balance, String customerName, String email, String phoneNumber){
-        this.balance = balance;
+    public BankAccount() {
+
+    }
+
+    public BankAccount(String accountNumber, double balance, String customerName, String email, String phoneNumber) {
         this.accountNumber = accountNumber;
-        this.phoneNumber = phoneNumber;
+        this.balance = balance;
         this.customerName = customerName;
         this.email = email;
+        this.phoneNumber = phoneNumber;
     }
 
     public BankAccount(String customerName, String email, String phoneNumber) {
